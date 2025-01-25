@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1f3015a-4852-4bde-8b2d-9348f2933d55" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/usuarios.produtos.kotlin/src/main/kotlin/com/lojinha/usuarios/produtos/kotlin/Controller/UsuarioController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuarios.produtos.kotlin/src/main/kotlin/com/lojinha/usuarios/produtos/kotlin/Model/Usuario.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuarios.produtos.kotlin/src/main/kotlin/com/lojinha/usuarios/produtos/kotlin/Repository/UsuarioRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuarios.produtos.kotlin/src/main/kotlin/com/lojinha/usuarios/produtos/kotlin/Service/UsuarioService.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarios.produtos.kotlin/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/usuarios.produtos.kotlin/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarios.produtos.kotlin/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/usuarios.produtos.kotlin/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarios.produtos.kotlin/src/test/kotlin/com/lojinha/usuarios/produtos/kotlin/ApplicationTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/usuarios.produtos.kotlin/src/test/kotlin/com/lojinha/usuarios/produtos/kotlin/ApplicationTests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +41,14 @@
         </projects_view>
       </state>
     </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Kotlin Interface" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />

@@ -1,6 +1,7 @@
 # lojinha-virtual
 
 Projeto destinado ao estudo de microsserviços e teste de novas tecnologias
+Arquitetura de camadas
 
 ### Linguagens Utilizadas
 

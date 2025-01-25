@@ -1,11 +1,11 @@
 # lojinha-virtual
 
-Projeto destinado ao estudo de microsserviços e teste de novas tecnologias
+Projeto destinado ao estudo de microsserviços e teste de novas tecnologias\
 Arquitetura de camadas
 
 ### Linguagens Utilizadas
 
-- Java 17
+- Java 21
 - Kotlin 
 
 ### Estrutura do projeto

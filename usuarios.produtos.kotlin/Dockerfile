@@ -8,7 +8,7 @@ WORKDIR /usuarios.produtos.kotlin
 COPY --chown=gradle:gradle . .
 
 # Rodar o Gradle para compilar a aplicação
-RUN gradle clean build --no-daemon
+RUN gradle build --no-daemon
 
 # Etapa 2: Executar a aplicação
 FROM openjdk:21

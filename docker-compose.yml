@@ -1,15 +1,5 @@
 services:
-  usuarios_produtos_kotlin:
-    build: usuarios.produtos.kotlin
-    container_name: usuarios_produtos_kotlin
-    ports:
-      - "8080:8080"
-    depends_on:
-      - db-usuario-produto # Garante que o banco de dados seja iniciado antes da aplicação
-    networks:
-      - app-network
-
-  db-usuario-produto:
+  usuario_produto_db:
     image: postgres:14
     container_name: usuario_produto_db
     environment:
@@ -22,12 +12,16 @@ services:
       - postgres-data:/var/lib/postgresql/data  # Persistência de dados
     networks:
       - app-network
-    healthcheck: # ve se esta tudo certo com o banco
-      test: ["CMD", "pg_isready", "-U", "postgres", "-d", "usuario_produto_db"]
-      interval: 10s
-      retries: 5
-      start_period: 30s
-      timeout: 10s
+
+  usuarios_produtos_kotlin:
+    build: usuarios.produtos.kotlin
+    container_name: usuarios_produtos_kotlin
+    ports:
+      - "8080:8080"
+    depends_on:
+      - usuario_produto_db # Garante que o banco de dados seja iniciado antes da aplicação
+    networks:
+      - app-network
 
 networks:
   app-network:
